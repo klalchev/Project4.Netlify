@@ -17,8 +17,8 @@ app.use(express.static('dist'))
 var aylien = require("aylien_textapi");
 
 var textapi = new aylien({
-application_id: b6d91639,
-application_key: f124b3d0b91920347d804178b5b2fcbd
+application_id: 'b6d91639',
+application_key: 'f124b3d0b91920347d804178b5b2fcbd'
 });
 
 
